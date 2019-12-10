@@ -10,5 +10,7 @@ class GoodDog
 end
 
 sparky = GoodDog.new("Sparky", 2)
+puts sparky
+# => #<GoodDog:0x007fe542323320>
 puts sparky.age
 # => 14
