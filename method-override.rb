@@ -15,3 +15,8 @@ puts Parent.superclass
 
 child = Child.new
 child.say_hi
+ # => "Hi from Child."
+
+ son = Child.new
+ son.send :say_hi
+  # => "Hi from Child."
